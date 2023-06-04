@@ -1,0 +1,42 @@
+// 顏色-主輔色
+$primary: #f18724;
+$surface: #f2eee7;
+// 顏色-灰階
+$black-100: #020202;
+$black-80: #525252;
+$black-60: #919191;
+$black-40: #d1d1d1;
+$black-20: #f2f2f2;
+$white: #fff;
+
+// 文字
+$fs-base: 16px;
+$fs-sm: $fs-base*0.875;
+$fz-xs: $fs-base*0.75;
+// 行高
+$lh-base: 1.5;
+$lh-sm: 1.2;
+
+// space
+$space-base: 8px;
+
+$space-xs: $space-base*0.5; //4px
+$space-sm: $space-base*1.5; //12px
+$space-lg: $space-base*2.5; //20px
+$space-xl: $space-base*12.5; //100px
+// 倍數
+$space-2: $space-base*2;
+$space-3: $space-base*3;
+$space-4: $space-base*4;
+$space-5: $space-base*5;
+$space-6: $space-base*6;
+$space-8: $space-base*8;
+$space-10: $space-base*10;
+$space-15: $space-base*15;
+$space-20: $space-base*20; 
+
+
+//沒有製作網格
+//桌面 3欄 卡片30%*3 間距10%/2
+//平板 2欄 卡片48%*2 間距4%/2
+//行動 單欄 卡片100% 

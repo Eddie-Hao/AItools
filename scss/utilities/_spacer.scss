@@ -1,0 +1,116 @@
+//間距 margin-bottom
+.mb-xs {
+    margin-bottom: $space-xs;
+}
+
+.mb-sm {
+    margin-bottom: $space-sm;
+}
+
+.mb-lg {
+    margin-bottom: $space-lg;
+}
+
+.mb-xl {
+    margin-bottom: $space-xl;
+}
+
+.mb-1 {
+    margin-bottom: $space-base;
+}
+
+.mb-2 {
+    margin-bottom: $space-2;
+}
+
+.mb-3 {
+    margin-bottom: $space-3;
+}
+.mb-4{
+    margin-bottom: $space-4;
+}
+.mb-5 {
+    margin-bottom: $space-5;
+}
+.mb-6 {
+    margin-bottom: $space-6;
+}
+.mb-8{
+    margin-bottom: $space-8;
+}
+.mb-10 {
+    margin-bottom: $space-10;
+}
+
+.mb-15 {
+    margin-bottom: $space-15;
+}
+
+.mb-20 {
+    margin-bottom: $space-20;
+}
+.mb-auto {
+    margin-bottom: auto;
+}
+@media (max-width:768px) {
+    .mb-md-sm{
+        margin-bottom: $space-sm;
+    }
+    .mb-md-lg{
+        margin-bottom: $space-lg;
+    }
+    .mb-md-3 {
+        margin-bottom: $space-3;
+    }
+    .mb-md-4{
+        margin-bottom: $space-4;
+    }
+    .mb-md-5{
+        margin-bottom: $space-5;
+    }
+    .mb-md-6 {
+        margin-bottom: $space-6;
+    }
+    .mb-md-15 {
+        margin-bottom: $space-15;
+    }
+}
+
+//margin-top
+.mt-lg{
+    margin-top: $space-lg;
+}
+.mt-10 {
+    margin-top: $space-10;
+}
+
+//margin-left
+.ml-sm {
+    margin-left: $space-sm;
+}
+.ml-lg {
+    margin-left: $space-lg;
+}
+.ml-5{
+    margin-left: $space-5;
+}
+
+//margin-right
+.mr-xs{
+    margin-right: $space-xs;
+}
+.mr-sm{
+    margin-right: $space-sm;
+}
+.mr-lg{
+    margin-right: $space-lg;
+}
+.mr-base{
+    margin-right: $space-base;
+}
+.mr-2 {
+    margin-right: $space-2;
+}
+.mr-3 {
+    margin-right: $space-3;
+}

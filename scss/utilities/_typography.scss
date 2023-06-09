@@ -1,0 +1,112 @@
+//文字尺寸
+.display-1 {
+    font-size: $fs-base*10;
+    line-height: $lh-sm;
+}
+
+.display-2 {
+    font-size: $fs-base*7.5;
+    line-height: $lh-sm;
+}
+
+.display-3 {
+    font-size: $fs-base*5;
+    line-height: $lh-sm;
+}
+
+.h1 {
+    font-size: $fs-base*3;
+    line-height: $lh-sm;
+}
+
+.h2 {
+    font-size: $fs-base*2.5;
+    line-height: $lh-sm;
+}
+
+.h3 {
+    font-size: $fs-base*2;
+    line-height: $lh-sm;
+}
+
+.h4 {
+    font-size: $fs-base*1.75;
+    line-height: $lh-sm;
+}
+
+.h5 {
+    font-size: $fs-base*1.5;
+    line-height: $lh-sm;
+}
+
+.h6 {
+    font-size: $fs-base*1.25;
+    line-height: $lh-sm;
+}
+.fs-base{
+    font-size: $fs-base;
+    line-height: $lh-base;
+}
+.fs-sm {
+    font-size: $fs-sm;
+    line-height: $lh-base;
+}
+
+.fs-xs {
+    font-size: $fz-xs;
+    line-height: $lh-base;
+}
+
+@media (max-width:768px) {
+    .h1-md {
+        font-size: $fs-base*3;
+    }
+    .h3-md{
+        font-size: $fs-base*2;
+    }
+    .h4-md{
+        font-size: $fs-base*1.75;
+    }
+    .h6-md{
+        font-size: $fs-base*1.25;
+    }
+    .fs-md-base{
+        font-size: $fs-base;
+        line-height: $lh-base;
+    }
+}
+
+//文字樣式
+.fw-black {
+    font-weight: 900;
+}
+.fw-bold{
+    font-weight: 700;
+}
+.fw-base{
+    font-weight: 400;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+//文字顏色
+.text-black {
+    color: $black-100;
+}
+.text-black-80 {
+    color: $black-80;
+}
+.text-black-60 {
+    color: $black-60;
+}
+.text-white{
+    color: $white;
+}
+.text-primary{
+    color: $primary;
+}

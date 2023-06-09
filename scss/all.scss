@@ -1,7 +1,20 @@
-@import 'reset';
-@import 'variable';
-@import 'base';
-@import 'home';
-@import 'sale';
+@import '../scss/utilities/variable';
 @import '../scss/utilities/spacer';
+@import '../scss/utilities/typography';
+@import '../scss/utilities/flexbox';
 @import '../scss/utilities/utilities';
+
+@import '../scss/base/reset';
+@import '../scss/base/base';
+
+@import '../scss/component/card';
+@import '../scss/component/button';
+
+@import '../scss/layout/header';
+@import '../scss/layout/sitemap';
+@import '../scss/layout/footer';
+@import '../scss/layout/tools';
+
+@import '../scss/page/home';
+@import '../scss/page/sale';
+

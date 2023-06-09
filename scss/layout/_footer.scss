@@ -1,0 +1,39 @@
+//footer
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: $space-lg;
+    padding-bottom: $space-lg;
+
+    @media (max-width:768px) {
+        flex-wrap: wrap;
+    }
+
+    &-text,
+    &-menu,
+    &-btn {
+        padding-top: $space-sm;
+        padding-bottom: $space-sm;
+    }
+
+    &-menu {
+        display: flex;
+        width: 60%;
+
+        @media (max-width:576px) {
+            order: 3;
+            margin-top: $space-sm;
+        }
+    }
+
+    &-menu-item,
+    &-btn {
+        color: $white;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+}

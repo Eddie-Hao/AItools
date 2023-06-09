@@ -1,0 +1,29 @@
+// 按鈕
+// outline
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 16px;  
+
+    &:hover {
+        background-color: $black-20;
+        color: $black-100;
+    }
+}
+
+.btn-outline {
+    border: 1px solid $white;
+    padding: $space-lg $space-5;
+}
+.btn-fill{
+    background-color: $white;
+    padding: $space-base $space-2;
+}
+
+.btn-link{
+    color: $white;
+
+        &:hover,&:active {
+            color: $primary;
+        }
+}

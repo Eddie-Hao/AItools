@@ -1,0 +1,98 @@
+//header
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $black-100;
+    z-index: 99;
+}
+
+.logo {
+    width: 245px;
+    height: 40px;
+
+    @media (max-width:768px) {
+        width: 114px;
+        height: 24px;
+    }
+}
+
+.navbar {
+    background-color: $black-100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // relative- 因為要使用z-index
+    position: relative;
+    z-index: 98;
+    padding-top: $space-2;
+    padding-bottom: $space-2;
+    border-bottom: 1px solid $white;
+
+    &-menu {
+        display: flex;
+
+        &-item {
+            padding-top: $space-sm;
+            padding-bottom: $space-sm;
+            color: $white;
+            line-height: 1.5;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // relative- 因為要使用z-index
+    position: relative;
+    z-index: 97;
+    // 顯示高度
+    min-height: 0;
+    margin-top: -200px;
+    transition: 0.8s;
+
+    &-item {
+        color: $white;
+
+        &:active {
+            color: $primary;
+        }
+    }
+
+    &-btn {
+        display: none;
+        padding: $space-base;
+        line-height: 0;
+
+        &:active {
+            color: $primary;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-collapse {
+        &.active {
+            min-height: calc(100vh - 81px);
+            margin-top: 0;
+            transition: 0.8s;
+        }
+
+        &-btn {
+            display: block;
+            padding: $space-sm;
+        }
+    }
+}
